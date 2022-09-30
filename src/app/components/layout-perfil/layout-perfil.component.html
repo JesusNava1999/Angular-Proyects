@@ -1,0 +1,41 @@
+<div class="container">
+  <div class="container-top">
+    <div class="foto-perfil">
+      <i class="fas fa-user icon fa-10x"></i>
+      <button class="btn btn-primary editarFoto">
+        <i class="fas fa-pen"></i>
+      </button>
+      <div class="editar">
+        <button class="btn btn-primary">Editar perfil</button>
+      </div>
+    </div>
+  </div>
+  <div class="container-bottom">
+    <div class="container-left">
+      <h2>Nombre:</h2>
+      <h2>Correo institucional:</h2>
+      <h2>Numero de control:</h2>
+      <h2 *ngIf="esEstudiante">Carrera:</h2>
+    </div>
+    <div class="container-right">
+      <p>
+        <input
+          class="input-perfil"
+          type="text"
+          [disabled]="modoEdicion"
+          [(ngModel)]="nombrePerfil"
+        />
+      </p>
+      <h2>za18011108@zapopan.tecmm.edu.mx</h2>
+      <p>
+        <input
+          class="input-perfil"
+          type="text"
+          [disabled]="modoEdicion"
+          [(ngModel)]="numeroDeControl"
+        />
+      </p>
+      <h2>Ingeniería en sistemas computacionales</h2>
+    </div>
+  </div>
+</div>

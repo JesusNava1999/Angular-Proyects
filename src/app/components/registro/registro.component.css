@@ -1,0 +1,67 @@
+.input {
+  font-family:  Verdana, Geneva, Tahoma, sans-serif;
+  width: 300px;
+  height: 40px;
+  font-size: .8rem;
+  border-radius: .5em;
+  outline: 0;
+  margin-bottom: 10px;
+  border-width: 0 0 2px;
+  border-color: #48b1bf;
+}
+
+.input:hover {
+  transform: scale(1.02);
+}
+.input:focus{
+  border-color: black;
+}
+
+.btn-ingresar {
+  width: 300px;
+}
+
+.btn-ingresar:hover {
+  transform: scale(1.05);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.titulo{
+  font-family: Rockwell;
+  font-size: 3.25rem;
+  text-shadow: 2px 2px #999;
+}
+
+.titulo:hover{
+  transform: scale(10px)
+}
+.box{
+  height: 85%;
+  width: 80%;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+input[type="radio"]{
+  background-color: #52c7b8;
+  border: 2px solid black;
+}
+

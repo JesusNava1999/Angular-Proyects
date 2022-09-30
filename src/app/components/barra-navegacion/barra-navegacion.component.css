@@ -1,0 +1,9 @@
+.titulo {
+  font-family: Rockwell;
+  font-size: 2rem;
+  text-shadow: 2px 2px #999;
+}
+
+.barraBusqueda{
+  margin-right: 10px;
+}

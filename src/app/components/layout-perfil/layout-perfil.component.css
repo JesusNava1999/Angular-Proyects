@@ -1,0 +1,42 @@
+.container{
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.container-bottom{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  margin: 1rem;
+}
+
+.input-perfil{
+  width: max-content;
+  font-size: 1.5rem;
+}
+
+.container-top{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin: 1rem;
+}
+
+.container-right{
+  margin-left: 1rem;
+}
+
+.editarFoto{
+  margin-left: -2rem;
+  margin-bottom: -.8rem;
+}
+
+.editar{
+  margin: 1rem;
+}

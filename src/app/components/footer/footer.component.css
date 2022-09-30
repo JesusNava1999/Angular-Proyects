@@ -1,0 +1,10 @@
+.box{
+  width: max-content;
+  height: max-content;
+  border-radius: 5px;
+}
+
+img{
+  height: 5%;
+  width: 20%;
+}

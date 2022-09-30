@@ -1,0 +1,28 @@
+<div class="container">
+  <hr />
+  <span>{{mensaje}}</span>
+  <div class="personas" *ngFor="let persona of personas">
+    <table>
+      <ul>
+        <li>
+          id: {{ persona.id_persona }} nombre: {{ persona.nombre }} --
+          <a
+            [routerLink]="['/personas/editar', persona.id_persona]"
+            class="btn btn-primary"
+          >
+            Editar
+          </a>
+          <span> -- </span>
+          <button
+            class="btn btn-primary btn-eliminar"
+            (click)="eliminarPersona(persona.id_persona)"
+          >
+            Eliminar
+          </button>
+        </li>
+        <hr />
+      </ul>
+    </table>
+  </div>
+  <hr />
+</div>
